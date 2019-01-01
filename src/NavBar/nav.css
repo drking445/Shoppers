@@ -1,0 +1,48 @@
+ul{
+    background-color: #2f2f2f;
+    color: #ffffff;
+    width:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin:0 auto;
+    margin-bottom: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+
+button{
+    float: none;
+    text-align: left;
+    margin: 0;
+}
+
+i{
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+    background: black;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+input{
+    float: right;
+    border: none;
+    margin-right: 16px;
+}
+
+li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 75px;
+    display: inline;
+    padding-top: 15px;
+    border-radius: 0;
+    margin-bottom: 0;
+    top: 15px;
+}
