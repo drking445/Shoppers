@@ -18,7 +18,9 @@ button{
     float: none;
     text-align: left;
     margin: 0;
+    background-color: #2f2f2f;
 }
+
 
 i{
     float: right;
@@ -45,4 +47,5 @@ li{
     border-radius: 0;
     margin-bottom: 0;
     top: 15px;
+    color: #ffffff;
 }

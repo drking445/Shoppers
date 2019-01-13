@@ -1,11 +1,14 @@
 import React from 'react';
 import './nav.css'
+import { Link } from 'react-router-dom';
+
+
 const NavBar = () => (
   <html>
   <ul>
-    <li>Home</li>
-    <li>Sell</li>
-    <li>Buy</li>
+      <Link to={'/'}><li>Home</li></Link>
+      <Link to={'/sell'}><li>Sell</li></Link>
+      <Link to={'/buy'}><li>Buy</li></Link>
     <li>Lend</li>
     <li>Profile</li>
       <input type="text" placeholder="Search.." name="search"/>
