@@ -32,15 +32,23 @@ i{
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 input{
-    float: right;
+    float: left;
     border: none;
     margin-right: 16px;
 }
 
 li{
+    line-height: 10px;
+    height: 10px;
+    width: 10px;
     list-style-type: none;
-    margin: 5px;
+    margin:6px 0 10px 0;
     padding: 75px;
     display: inline;
     padding-top: 15px;
@@ -48,4 +56,6 @@ li{
     margin-bottom: 0;
     top: 15px;
     color: #ffffff;
+    line-height: 10px;
+    height: 10px;
 }

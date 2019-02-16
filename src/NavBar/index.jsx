@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 const NavBar = () => (
   <html>
   <ul>
-      <Link to={'/'}><li>Home</li></Link>
-      <Link to={'/sell'}><li>Sell</li></Link>
-      <Link to={'/buy'}><li>Buy</li></Link>
-    <li>Lend</li>
-    <li>Profile</li>
+      <li><Link to={'/'}>Home</Link></li>
+      <li><Link to={'/sell'}>Sell</Link></li>
+      <li><Link to={'/buy'}>Buy</Link></li>
+      <li><Link to={'/lend'}>Lend</Link></li>
+      <li><Link to={'/profile'}>Profile</Link></li>
       <input type="text" placeholder="Search.." name="search"/>
       <button type="submit"><i className="fa fa-search"></i></button>
   </ul>
