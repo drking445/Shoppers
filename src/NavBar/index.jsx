@@ -11,8 +11,10 @@ const NavBar = () => (
       <li><Link to={'/buy'}>Buy</Link></li>
       <li><Link to={'/lend'}>Lend</Link></li>
       <li><Link to={'/profile'}>Profile</Link></li>
+      <span className={"search"}>
       <input type="text" placeholder="Search.." name="search"/>
       <button type="submit"><i className="fa fa-search"></i></button>
+      </span>
   </ul>
 
 

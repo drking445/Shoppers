@@ -15,10 +15,9 @@ ul{
 
 
 button{
-    float: none;
-    text-align: left;
-    margin: 0;
+    float: right;
     background-color: #2f2f2f;
+    width: 20px;
 }
 
 
@@ -30,6 +29,7 @@ i{
     font-size: 17px;
     border: none;
     cursor: pointer;
+    color: white;
 }
 
 a{
@@ -38,9 +38,12 @@ a{
 }
 
 input{
-    float: left;
+    float: right;
     border: none;
-    margin-right: 16px;
+    width: 5%;
+    display: inline-block;
+    overflow: hidden;
+    padding-right: 345px;
 }
 
 li{
