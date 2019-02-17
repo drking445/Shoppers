@@ -13,23 +13,8 @@ ul{
     margin-bottom: 0;
 }
 
-
-button{
-    float: right;
-    background-color: #2f2f2f;
-    width: 20px;
-}
-
-
-i{
-    float: right;
-    margin-top: 8px;
-    margin-right: 8px;
-    background: black;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    color: white;
+.homeButton{
+    background-color: white;
 }
 
 a{
@@ -37,13 +22,15 @@ a{
     color: white;
 }
 
-input{
-    float: right;
+.search{
     border: none;
     width: 5%;
-    display: inline-block;
-    overflow: hidden;
-    padding-right: 345px;
+    padding-right: 25px;
+}
+
+input{
+    float: none;
+    border: none;
 }
 
 li{

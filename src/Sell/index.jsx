@@ -16,6 +16,13 @@ const formStyle={
     clear: "both"
 };
 
+const sellButton={
+    float: "left",
+    background:"white",
+    paddingLeft: 45
+
+};
+
 
 class Search extends React.Component{
 
@@ -96,7 +103,7 @@ class Sell extends React.Component{
             {!this.state.showResults ?
                 ( <div>
                 <h1>Sell</h1>
-                <button style={buttonStyle} onClick={this.onClick}>Sell your shoes</button>
+                <button style={sellButton} style={buttonStyle} onClick={this.onClick}>Sell your shoes</button>
             </div> ): (<Search/>)
             }
             </body>
