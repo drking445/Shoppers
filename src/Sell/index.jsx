@@ -33,6 +33,7 @@ class Search extends React.Component{
             image: null
         };
         this.handleClick = this.handleClick.bind(this);
+        this.clearLast = this.clearLast.bind(this);
     }
 
     handleClick(event){
@@ -45,8 +46,15 @@ class Search extends React.Component{
             });
         }
         */
-
     }
+
+    clearLast = (e) => {
+        e.preventDefault();
+        this.setState({
+            array: this.state.array.slice(0, -1)
+        });
+        console.log(this.state.array);
+    };
 
     render() {
         return (
@@ -56,6 +64,7 @@ class Search extends React.Component{
                 <form>
                     <input type="file" name="pic" accept="image" onChange={this.handleClick} multiple />
                     <input type="submit"/>
+                    <button className={"clear"} onClick={this.clearLast}>Clear last image</button>
                 </form>
             </div>
                 <div style={formStyle}>
