@@ -1,13 +1,11 @@
 import React from 'react';
 import './nav.css'
 import { Link } from 'react-router-dom';
-import 'typicons.font/src/font/typicons.css';
 import '../../node_modules/font-awesome/css/font-awesome.min.css';
 
 const NavBar = () => (
   <html>
   <head>
-      <link rel='stylesheet' href='path/to/typicons.min.css' />
   </head>
   <body>
   <ul>
